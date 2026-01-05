@@ -1,1 +1,13 @@
+# Dependencies
 node_modules/
+
+# Production
+dist/
+build/
+
+# Environment Variables
+.env
+.env.*
+! .env.example
+.DS_Store
+*.log
